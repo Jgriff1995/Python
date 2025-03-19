@@ -1,10 +1,10 @@
-# Python Adventures
+# Python
 
-Welcome to my Python Adventures repository! This collection showcases my journey in mastering Python, transitioning from Java, and tackling various coding challenges.
+Welcome to my Python repository! This collection showcases my journey in mastering Python, transitioning from Java, and tackling various coding challenges.
 
 ## Table of Contents
 
-- [Python Adventures](#python-adventures)
+- [Python](#python)
   - [Table of Contents](#table-of-contents)
   - [About the Project](#about-the-project)
   - [Repository Structure](#repository-structure)
