@@ -1,0 +1,24 @@
+Description
+
+Write a Java program that reads a binary file, processes existing data by assigning raises, and produces a binary file containing the processed information in the same format as the original. Use the employeeData.dat file as your employee data file and write a Java program that reads in employee data and processes it according to the provided table. The information in the binary data file contains the employee’s number designation (“Employee #”) as UTF, their salary as a double, and their years of service as a double in that order.
+
+Create an Employee class to represent employees. This class should contain data members for the name, salary, and years of service.
+
+The Employee class should contain a method named processRaise() that takes a raise percentage, and adjusts their salary.
+
+ Provide a toString() method that provides information about each Employee.
+
+This toString() method might be useful when testing your assignment.
+
+As you read in the employeeData.dat file, immediately create an Employee instance that contains the current data in the data file, then process and update each instance’s salary based on Table 1 using the Employee instance and the processRaise() method (this should be done using the Employee instance). Once each salary is processed, write each Employee instance’s information back out to a binary file named employeeDataProcessed.dat as an Employee object. Use appropriate exception handling within the program.
+
+
+Using this table, a worker that makes $27,000.00 and has worked for 3 years will receive a raise of 2.5%. A worker that makes $34,050 and has worked for 6 years receives an adjusted salary of $34,731 (2.0% raise).
+
+After processing all of the data, print the following values to the console:
+• Total company salary before the restructuring
+• Total company salary after the restructuring
+
+
+Notes
+You should write a program to read in and display both the original file and the processed file. This will allow you to check the updated salary values that were written for each employee and verify correctness of the salary adjustment. This program should not be submitted with this assignment. • This assignment will NOT be auto-graded in Gradescope. Gradescope will only serve as the submission system for this assignment. Expected Output Total Salary Before: $1,090,000.00 Total Salary After: $1,109,750.00 Plus all processed data contained in the specified output file Code To simplify submission into a single Java file, use the following template for your class. Make changes to the class headers as necessary. public class PAssign09 { public static void main(String[] args) { // your code here } } class Employee { }
